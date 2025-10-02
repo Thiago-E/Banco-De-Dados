@@ -5,7 +5,7 @@ USE db_escola_T
 GO
 
 --Este comando cria uma nova tabela
-CREATE TABLE tb_escola(
+CREATE TABLE tb_escola (
 	id INT IDENTITY(1, 1) PRIMARY KEY,
 	nome NVARCHAR(255) NOT NULL,
 	endereco NVARCHAR(255) NOT NULL
