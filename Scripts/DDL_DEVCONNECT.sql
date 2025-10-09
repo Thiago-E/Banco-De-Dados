@@ -13,7 +13,7 @@ fotoPerfilUrl NVARCHAR (255)
 
 CREATE TABLE tb_publicacao(
 id INT IDENTITY	(1,1) PRIMARY KEY,
-descricao	NVARCHAR		(500),
+descricao	NVARCHAR		(500),	
 imagemUrl NVARCHAR	(255) NOT NULL,
 data_Publicacao DATE NOT NULL,
 id_Usuario INT NOT NULL FOREIGN KEY REFERENCES tb_usuario(id)
